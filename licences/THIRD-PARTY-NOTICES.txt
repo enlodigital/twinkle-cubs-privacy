@@ -1,0 +1,61 @@
+THIRD-PARTY SOFTWARE NOTICES
+
+Kotlin Standard Library
+Component: org.jetbrains.kotlin:kotlin-stdlib:2.3.10
+Licence: Apache License, Version 2.0 (Apache-2.0.txt).
+Project: https://github.com/JetBrains/kotlin
+
+IntelliJ IDEA Annotations
+Component: org.jetbrains:annotations:13.0
+Licence: Apache License, Version 2.0 (Apache-2.0.txt).
+Project recorded by this version's POM: https://github.com/JetBrains/intellij-community
+
+The following copyright lines are retained verbatim from these exact published
+source artifacts. Different year ranges belong to different source files.
+They are not newly asserted application copyrights.
+
+kotlin-stdlib-2.3.10-sources.jar:
+Copyright (c) 2007-present, Stephen Colebourne & Michael Nascimento Santos
+Copyright 2007 Google Inc.
+Copyright 2010-2015 JetBrains s.r.o.
+Copyright 2010-2016 JetBrains s.r.o.
+Copyright 2010-2017 JetBrains s.r.o.
+Copyright 2010-2018 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license
+Copyright 2010-2018 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2019 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2020 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2021 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2022 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2023 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2024 JetBrains s.r.o. and Kotlin Programming Language contributors.
+Copyright 2010-2025 JetBrains s.r.o. and Kotlin Programming Language contributors.
+
+annotations-13.0-sources.jar:
+Copyright 2000-2009 JetBrains s.r.o.
+Copyright 2000-2012 JetBrains s.r.o.
+Copyright 2000-2013 JetBrains s.r.o.
+Copyright 2006 Sascha Weinreuter
+
+Included source acknowledgements in Kotlin Standard Library:
+
+Based on GWT AbstractList
+Based on GWT AbstractMap
+Copyright 2007 Google Inc.
+
+Division and remainder are based on Guava's UnsignedLongs implementation
+Copyright 2011 The Guava Authors
+
+Based on the ThreeTenBp project.
+Copyright (c) 2007-present, Stephen Colebourne & Michael Nascimento Santos
+
+The full ThreeTenBP copyright, conditions and disclaimer are reproduced
+verbatim in ThreeTenBP-LICENSE.txt. The Kotlin release's GWT and Guava licence
+texts are byte-identical to the accompanying Apache-2.0.txt.
+
+This index records the components and source acknowledgements distributed
+with this application. It does not claim that the Kotlin compiler or the
+IntelliJ IDE distribution is bundled.
+
+Fredoka Medium and Fredoka SemiBold
+The full existing copyright and SIL Open Font License 1.1 accompany the
+application at assets/fredoka_OFL88.txt and this documentation as fredoka_OFL88.txt.
