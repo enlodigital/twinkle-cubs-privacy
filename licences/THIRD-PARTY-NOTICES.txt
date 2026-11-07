@@ -59,3 +59,11 @@ IntelliJ IDE distribution is bundled.
 Fredoka Medium and Fredoka SemiBold
 The full existing copyright and SIL Open Font License 1.1 accompany the
 application at assets/fredoka_OFL88.txt and this documentation as fredoka_OFL88.txt.
+
+DynaPuff Bold
+Original static font: DynaPuff-Bold.ttf, weight 700, Version 2.000.
+Designers: Toshi Omagari, Jennifer Daniel.
+Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
+Licence: SIL Open Font License 1.1; full copyright and licence: third_party/DynaPuff-OFL.txt (bundled assets),
+or DynaPuff-OFL.txt alongside this public/release notice.
+Used for Home Cub speech-bubble typography.
