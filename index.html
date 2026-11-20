@@ -15,6 +15,7 @@ main {max-width:52rem; margin:2rem auto; padding:clamp(1.25rem,5vw,3rem); backgr
 h1 {font-size:clamp(1.9rem,5vw,2.6rem); line-height:1.2; color:#17385b; margin:.5rem 0 1.5rem;}
 h2 {font-size:clamp(1.4rem,3vw,1.65rem); line-height:1.3; margin:2.5rem 0 .75rem; color:#17385b; scroll-margin-top:1rem;}
 p {margin:.75rem 0 1.25rem;} ul {padding-left:1.5rem;} li {margin:.6rem 0;} a {color:#075a9e; text-underline-offset:.16em;} a:focus-visible {outline:3px solid #ca8b18;outline-offset:4px;}
+.summary {background:#eef4fb; border:1px solid #c9d8ea; border-radius:.75rem; padding:.25rem 1.25rem; margin:1rem 0 1.5rem;} .summary h2 {margin:1rem 0 .25rem;}
 footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-size:1rem;}
 @media(max-width:40rem) {main {margin:0; border:0; border-radius:0;}}
 @media print {body {background:white;font-size:12pt;} main {margin:0;max-width:none;border:0;padding:0;} a {color:inherit;}}
@@ -23,12 +24,23 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 <body>
 <main>
 <h1>Six Little Cubs Playground Privacy Policy</h1>
-<p><strong>Last updated: 13 November 2026</strong></p>
-<h2 id="about-twinkle-cubs-playground">About Six Little Cubs Playground</h2>
+<p><strong>Last updated: 20 November 2026</strong></p>
+<section class="summary" aria-labelledby="privacy-at-a-glance">
+<h2 id="privacy-at-a-glance">Privacy at a glance</h2>
+<ul>
+<li>No player accounts, advertisements, gameplay analytics or third-party crash-reporting services.</li>
+<li>Nicknames, saved artwork and gameplay progress are stored on the device and are not automatically sent to the developer.</li>
+<li>Google Play handles purchases and receives Billing technical events and diagnostics. See <a href="#purchases">Google Play Billing</a>.</li>
+<li>If a parent emails support, the developer receives the email address and information the parent chooses to send.</li>
+<li>Parents can clear local app data in the Parent Area and request access to, correction of or deletion of support correspondence by emailing <a href="mailto:enlodigital.apps@gmail.com">enlodigital.apps@gmail.com</a>. See <a href="#data-retention-and-deletion">Data Retention and Deletion</a>.</li>
+</ul>
+</section>
+<h2 id="about-six-little-cubs-playground">About Six Little Cubs Playground</h2>
 <p>Six Little Cubs Playground is a children’s game for Android developed and operated by Mark Iannello, an Australian sole trader. This policy explains how information is handled when you play the game, contact support or visit this privacy page.</p>
 <h2 id="information-we-collect">Information We Collect</h2>
+<p>The developer does not sell personal information or share it for advertising. The Billing, support-email and website-hosting processing described in this policy still applies.</p>
 <p>The game has no account registration or login, and it does not require an email address to play. The developer does not automatically receive the nickname, artwork or gameplay progress saved in the game.</p>
-<p>Gameplay information is saved locally on the device, as described below. Google Play Billing communicates with Google to check Full Game ownership, handle purchases and restoration, and send technical Billing events and diagnostics. These processes are separate from local gameplay saves. See <a href="#purchases">Google Play Billing</a> below.</p>
+<p>Gameplay information is saved locally on the device, as described below. Google Play handles purchases and ownership checks separately from those saves. Its data handling, including technical reporting, is explained under <a href="#purchases">Google Play Billing</a>.</p>
 <p>If a parent emails support, the parent’s email address and any information they choose to include are sent through their email service to the developer’s support mailbox. The developer uses support messages to respond to help, feedback and privacy requests and to keep relevant support records. Please avoid including a child’s real name or other unnecessary personal information in a support message.</p>
 <p>Visiting this privacy webpage is separate from playing the game. Website hosting is described under <a href="#third-party-services">Third-Party Services</a>.</p>
 <h2 id="information-stored-on-the-device">Information Stored on the Device</h2>
@@ -44,10 +56,13 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 <li>A local Full Game ownership record, including the product identifier, purchase token supplied by Google Play and acknowledgement status, used to remember purchase access and complete purchase confirmation.</li>
 <li>Technical caches and queued diagnostic reports used by the Google Play Billing library.</li>
 </ul>
+<p>A local access flag used for testing is stored on the device. Reset saves keeps this flag; Delete All My Data removes it.</p>
 <p>The game does not upload or synchronise your gameplay saves, artwork or collections to a developer account or cloud-save service. Full Game purchase restoration through Google Play is separate: it restores access, not those existing local saves. The app disables Android backup and excludes its data from configured cloud-backup and device-transfer rules. Device manufacturers’ separate transfer tools may behave differently.</p>
 <p>Some activities offer content-group choices to select suitable activity options on the device. This feature does not ask for a child's date of birth and does not verify age or identity. The selection is used locally and is not automatically sent to the developer or another service.</p>
 <h2 id="children-s-privacy">Children’s Privacy</h2>
+<p>This policy does not limit any rights you have under applicable Australian privacy law, including the <a href="https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act" rel="noreferrer noopener">Privacy Act 1988</a> where it applies.</p>
 <p>The game is designed for young children. It does not include child accounts, social messaging, public profiles or a feature for uploading children’s creations to the developer or other players.</p>
+<p>As a children’s app distributed through Google Play, the game is subject to the <a href="https://support.google.com/googleplay/android-developer/answer/9893335" rel="noreferrer noopener">Google Play Families Policy</a> requirements.</p>
 <p>A nickname is optional. A real name is not required, and a player can leave the name blank. The game does not request access to the microphone, camera, location or contacts.</p>
 <p>Settings, purchase and restoration controls, support email actions and the privacy-policy link are in a Parent Area protected by a reading check. This check is a navigation barrier for grown-ups; it is not identity verification or a parental-consent service. Parents should supervise use of the game and any external email or browser app.</p>
 <p>If a parent includes information about a child in a support email, the developer receives that information as part of the correspondence. Please share only what is necessary to explain the issue.</p>
@@ -60,7 +75,7 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 <h2 id="third-party-services">Third-Party Services</h2>
 <p>The game uses Android device features for local rendering, storage and audio playback. It may read device tilt while certain shiny-card effects are visible. Tilt readings are used temporarily for the visual effect and are not saved or sent to the developer. The game does not use active Text-to-Speech, speech recognition or microphone recording in this version.</p>
 <p>The device keyboard used to enter a nickname is supplied by Android or the keyboard provider. Its operation is governed by that provider's settings and policies; the game does not control those separate services.</p>
-<p>Google Play provides purchase, restoration and Billing technical-reporting services, as described in the <a href="#purchases">Google Play Billing</a> section. Google handles information under its own terms and policies. See the <a href="https://policies.google.com/privacy" rel="noreferrer noopener">Google Privacy Policy</a> and <a href="https://play.google.com/about/play-terms/" rel="noreferrer noopener">Google Play Terms of Service</a>.</p>
+<p>Google Play services and the associated <a href="https://policies.google.com/privacy" rel="noreferrer noopener">Google Privacy Policy</a> and <a href="https://play.google.com/about/play-terms/" rel="noreferrer noopener">Google Play Terms of Service</a> are described under <a href="#purchases">Google Play Billing</a>.</p>
 <p>The developer’s support address uses Gmail. If you send an email, your email provider and Google's Gmail service handle that correspondence under their own policies. The game itself opens an email draft addressed to support; it does not automatically send a message or attach the player's name, saves, artwork or logs.</p>
 <p>This policy is hosted on GitHub Pages. GitHub provides the website hosting and may process technical request information, such as IP addresses, to deliver and operate the website under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer noopener">GitHub Privacy Statement</a>. The page contains no advertising, analytics code, tracking scripts, forms or externally loaded fonts. Website request processing is separate from local gameplay saves.</p>
 <h2 id="purchases">Google Play Billing</h2>
@@ -70,10 +85,11 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 <p>The game communicates with Google Play to obtain product information and localised prices, check ownership, restore access and acknowledge purchases. Ownership checks may also occur when opening or returning to the game. It does not include the entered child/player name, artwork, gameplay progress or collections in its Billing requests. It does not send purchase information to a developer-operated server.</p>
 <p>Restore Purchase checks ownership with Google Play. Purchase access depends on the Google account used for the purchase and the account context supplied by Play. Restoring Full Game does not transfer existing gameplay progress, artwork, Twinkles, cards or stickers between devices or Android user profiles.</p>
 <h3>Billing technical events and diagnostics</h3>
+<p>These reports describe how the purchase and ownership-check features operate, including Billing screens opening and whether requests succeed. They do not include the nickname, saved artwork or gameplay progress.</p>
 <p>The Google Play Billing library uses Google DataTransport to send technical Billing events and diagnostics to Google. These can include app/package and Billing-library versions, request outcomes and timing, a Billing-session identifier, and device/Android-build, network and locale information.</p>
-<p>Device and technical information can include Android version, device model and manufacturer, hardware and operating-system build information, timezone, network type, language, country and SIM operator code. The operating-system build fingerprint is not a unique hardware identifier, and the SIM operator code is not a telephone number.</p>
+<p>Device and technical information can include Android version, device model and manufacturer, hardware and operating-system build information, total device memory, timezone, network type, language, country and SIM operator code. The operating-system build fingerprint is not a unique hardware identifier, and the SIM operator code is not a telephone number.</p>
 <p>The library can queue these reports in private app storage before transmission. Reporting can occur during purchase-ownership checks when opening or returning to the game, even if no new purchase is started.</p>
-<p>This reporting is separate from the optional Copy purchase check report and local gameplay saves. Google handles these records under its <a href="https://play.google.com/about/play-terms/" rel="noreferrer noopener">terms</a> and <a href="https://policies.google.com/privacy" rel="noreferrer noopener">privacy policy</a>.</p>
+<p>This reporting is separate from the optional Copy purchase check report and local gameplay saves. Google handles these records under the <a href="https://play.google.com/about/play-terms/" rel="noreferrer noopener">Google Play Terms of Service</a> and <a href="https://policies.google.com/privacy" rel="noreferrer noopener">Google Privacy Policy</a>.</p>
 <h2 id="saved-artwork">Saved Artwork</h2>
 <p>Drawings, colouring and saved sticker scenes are stored in the game's private app storage on the device. The game does not automatically publish them, upload them or save them to a public photo gallery. It does not request access to the device's existing photos or media library.</p>
 <h2 id="data-retention-and-deletion">Data Retention and Deletion</h2>
@@ -91,7 +107,8 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 <p>Clearing app storage also removes local SDK caches and queued diagnostic reports. It does not delete records already received by Google, including Billing technical diagnostics and transaction records. The developer’s support-mail deletion process does not delete those Google records either. Google controls retention and deletion of its records under its <a href="https://policies.google.com/privacy" rel="noreferrer noopener">privacy policy</a>.</p>
 <h3>Support correspondence and website records</h3>
 <p>Deleting local app data does not delete emails you have sent to support or records held by your email provider or website host.</p>
-<p>I keep support emails for as long as needed to respond to your request, troubleshoot reported issues and keep relevant support records. You can request deletion by emailing <a href="mailto:enlodigital.apps@gmail.com">enlodigital.apps@gmail.com</a>.</p>
+<p>The developer uses support emails to respond to requests and troubleshoot reported issues. Support emails are deleted within 12 months after the last message in a conversation, unless the request remains unresolved or longer retention is required by law.</p>
+<p>A parent can request access to, correction of or deletion of support correspondence held by the developer by emailing <a href="mailto:enlodigital.apps@gmail.com">enlodigital.apps@gmail.com</a>. The developer aims to respond to these requests within 30 days. This process concerns correspondence held by the developer; it does not delete records held independently by Google or other service providers.</p>
 <p>Your email provider and the website host handle their own records under their own policies.</p>
 <h2 id="security">Security</h2>
 <p>The game uses Android's private app-storage facilities. It does not provide player accounts or a gameplay cloud-save service. These protections do not make any device or email service completely secure. Parents should keep their device protected and consider what they include in support messages.</p>
@@ -99,7 +116,7 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 <p>The Parent Area can open an email app for support. The Privacy Policy option in the Parent Area opens this webpage in the device browser. The game does not append the player's name, progress or other saved information to that link.</p>
 <p>The email app, browser, website host and device keyboard are separate services with their own settings and policies. The game does not provide these external actions directly in child-facing gameplay.</p>
 <h2 id="changes-to-this-privacy-policy">Changes to This Privacy Policy</h2>
-<p>The developer may update this policy if the game or its privacy practices change. The updated policy will show its publication or update date. Changes involving online services, analytics, advertising, accounts or purchases require a fresh privacy and Google Play Data Safety review.</p>
+<p>The developer may update this policy if the game or its privacy practices change. Updates are published on this page with their update date. Parents can open the current policy through Parent Area → Privacy Policy → Read Privacy Policy. Changes involving online services, analytics, advertising, accounts or purchases require a fresh privacy and Google Play Data Safety review.</p>
 <h2 id="contact">Contact</h2>
 <p><strong>Developer:</strong> Mark Iannello</p>
 <p><strong>Privacy contact:</strong> <a href="mailto:enlodigital.apps@gmail.com">enlodigital.apps@gmail.com</a></p>
@@ -108,3 +125,4 @@ footer {border-top:1px solid #dde3eb; margin-top:2.5rem; padding-top:1rem; font-
 </main>
 </body>
 </html>
+
